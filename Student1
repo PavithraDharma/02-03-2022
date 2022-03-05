@@ -1,6 +1,5 @@
 /* Single inheritance-One parent class and one child class.
    Only one object is created to call both child and parent class methods */
-
 class Student1
 {
     String name;
