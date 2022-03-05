@@ -1,7 +1,5 @@
 //Aggregation-Here for name-fname and lname is included but it can be return together in seperate class and joined together.
 
-Name.java 
-
 public class Name {  
      String fname,lname;  
      public Name(String fname, String lname)
@@ -10,8 +8,6 @@ public class Name {
         this.lname = lname;  
      }  
 } 
-
-Emp.java
 
 public class Emp {  
 int id;  
