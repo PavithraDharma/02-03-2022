@@ -1,0 +1,35 @@
+//Aggregation-Here for name-fname and lname is included but it can be return together in seperate class and joined together.
+
+Name.java 
+
+public class Name {  
+     String fname,lname;  
+     public Name(String fname, String lname)
+     {  
+        this.fname = fname;  
+        this.lname = lname;  
+     }  
+} 
+
+Emp.java
+
+public class Emp {  
+int id;  
+Name name;  
+  
+public Emp(int id, Name name) {  
+    this.id = id;  
+    this.name = name; 
+}  
+  
+void display(){  
+   System.out.println(id+" "+name.fname+" "+name.lname);    
+}  
+  
+public static void main(String[] args) {  
+     Name n1=new Name("Pavithra","Dharmalingam");
+     Emp e=new Emp(28,n1);
+     e.display();
+      
+}  
+}  
