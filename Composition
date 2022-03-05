@@ -1,5 +1,4 @@
 //Composition-Strongly dependent on each other one cannot be without other
-
 class Mobile {
      String brand;
      Mobile (String brand)
