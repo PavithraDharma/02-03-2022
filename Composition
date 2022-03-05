@@ -1,0 +1,36 @@
+//Composition-Strongly dependent on each other one cannot be without other
+
+class Mobile {
+     String brand;
+     Mobile (String brand)
+    {
+        this.brand = brand;
+    }
+    public String getBrand()
+    {
+        return this.brand;
+    }
+}
+class Os {
+    String brand;
+    Os(String brand)
+    {
+        this.brand = brand;
+    }
+    public String getOsBrand()
+    {
+        return this.brand;
+    }
+}
+class Company {
+    public static void main(String[] args)
+    {
+        Mobile mobile = new Mobile("Lenova");
+        Os os = new Os("Android");
+        System.out.println(mobile.getBrand()
+                           + " contains "
+                           + os.getOsBrand()+" as OS");
+    }
+}
+
+
