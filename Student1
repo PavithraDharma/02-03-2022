@@ -17,3 +17,21 @@ class Student1
         System.out.println("Age="+age);
     }
 }
+class Mark extends Student1
+{
+    int m1=55,m2=100;
+    void getMark()
+    {
+        System.out.println("-----Child class-----");
+        System.out.println("Mark1="+m1+"\tMark2="+m2);
+    }
+}
+class Test
+{
+    public static void main(String[] args)
+    {
+        Mark obj=new Mark();
+        obj.getNameAge();
+        obj.getMark();
+    }
+}
