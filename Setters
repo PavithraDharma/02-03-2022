@@ -1,5 +1,4 @@
 //setter
-
 class Setters
 {
    int id;
