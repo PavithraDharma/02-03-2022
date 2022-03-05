@@ -1,4 +1,5 @@
 //getter and setters
+
 class GetAndSet
 {
    int id;
