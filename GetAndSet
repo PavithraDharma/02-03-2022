@@ -1,0 +1,40 @@
+//getter and setters
+
+class GetAndSet
+{
+   int id;
+   String name;
+   double salary;
+   public int getId()
+   {
+       return id;
+   }
+   public String getName()
+   {
+       return name;
+   }
+   public double getSalary()
+   {
+       return salary;
+   }
+   public void setId(int id)
+   {
+       this.id=id;
+   }
+   public void setName(String name)
+   {
+       this.name=name;
+   }
+   public void setSalary(double salary)
+   {
+       this.salary=salary;
+   }
+   public static void main(String[] args)
+   {
+       GetAndSet obj=new GetAndSet();
+       obj.setId(28);
+       obj.setName("Pavi");
+       obj.setSalary(30000);
+        System.out.println("Id= "+obj.getId()+"\nName= "+obj.getName()+"\nSalary= "+obj.getSalary());
+   }
+}
