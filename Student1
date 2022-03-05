@@ -1,0 +1,19 @@
+/* Single inheritance-One parent class and one child class.
+   Only one object is created to call both child and parent class methods */
+
+class Student1
+{
+    String name;
+    int age;
+    Student1()
+    {
+        name="Pavithra";
+        age=23;
+    }
+    void getNameAge()
+    {
+        System.out.println("------Parent class------");
+        System.out.println("Name="+name);
+        System.out.println("Age="+age);
+    }
+}
